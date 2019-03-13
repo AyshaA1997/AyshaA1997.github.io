@@ -9,4 +9,7 @@ body {
   /* outline: 1px dotted black; */
 }
 
-/* Your Awesome Scripts */
+/* Portfolio Styling */
+.lg-backdrop.in{
+  background-color: blueviolet;
+}
