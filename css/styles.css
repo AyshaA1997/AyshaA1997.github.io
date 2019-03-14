@@ -8,6 +8,15 @@ body {
 
 /* Your Awesome Scripts */
 
+/* mylogo */
+.mylogo{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 2000px;
+  height: auto;
+}
+
 /* navigation */
 * {
   box-sizing: border-box;
@@ -395,5 +404,5 @@ h1{
 img{
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
 }
