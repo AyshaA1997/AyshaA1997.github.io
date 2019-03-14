@@ -24,7 +24,7 @@ body {
 
 body {
   margin: 0px;
-  font-family: 'segoe ui';
+  font-family: 'Lato';
 }
 
 .nav {
@@ -65,7 +65,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #418080;
 }
 
 .nav > #nav-check {
@@ -128,19 +128,20 @@ body {
 #contact {
   width: 100%;
   height: 100vh;
-  background-color: #737144;
+  background-color: #fff;
   overflow: hidden;
   padding-bottom: 200px;
 }
 
 .section-header {
-  text-align: center;
+  display:flex;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
   font: 300 60px 'Oswald', sans-serif;
   letter-spacing: 6px;
-  color: #fff;
+  color: #c9ac68;
   margin-bottom: 25px;
 }
 
@@ -162,7 +163,7 @@ body {
 
 .form-control, textarea {
   max-width: 400px;
-  background-color: #737144;
+  background-color: #fff;
   color: rgb(41, 36, 36);
   letter-spacing: 1px;
 }
