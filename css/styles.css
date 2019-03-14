@@ -372,6 +372,23 @@ hr {
 }
 
 /* Portfolio Gallery */
+h1{
+  display: flex;
+  margin: 40px;
+  color: #c9ac68;
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+
+#gallery-1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 25px;
+  padding-top: 100px;
+}
+
 img{
   width: 200px;
   height: 300px;
