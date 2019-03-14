@@ -370,3 +370,9 @@ hr {
     width: 99%;
   }
 }
+
+/* Portfolio Gallery */
+img{
+  width: 200px;
+  height: 300px;
+}
