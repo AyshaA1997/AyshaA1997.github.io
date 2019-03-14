@@ -381,7 +381,8 @@ h1{
 }
 
 
-#gallery-1{
+#gallery-1,
+#gallery-2{
   display: flex;
   justify-content: center;
   justify-content: space-around;
