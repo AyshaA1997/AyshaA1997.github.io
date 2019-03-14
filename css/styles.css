@@ -148,6 +148,7 @@ body {
   font-weight: 400;
 }
 
+
 .form-control, textarea {
   max-width: 400px;
   background-color: #737144;
@@ -176,9 +177,9 @@ body {
   letter-spacing: 2px;
 }
 
-.button:hover {
+/* .button:hover {
   transform: translate3d(0px, -29px, 0px);
-}
+} */
 
 /* Begin Right Contact Page */
 .direct-contact-container {
