@@ -411,4 +411,16 @@ img{
 }
 
 
+/* about */
+.me{
+  margin: 40px;
+  width: 300px;
+  height: auto;
+  float: left;
+}
 
+#about{
+ padding: 2.5em;
+ width: 900px;
+ font-family: sans-serif;
+}
