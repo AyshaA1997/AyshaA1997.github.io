@@ -317,6 +317,7 @@ hr {
   .section-header {
     font-size: 65px;
   }
+  
   .direct-contact-container, .form-horizontal {
     float: none;
     margin: 10px auto;
@@ -413,14 +414,14 @@ img{
 
 /* about */
 .me{
-  margin: 40px;
+   float: left;
   width: 300px;
   height: auto;
-  float: left;
+  margin: 30px;
 }
 
 #about{
- padding: 2.5em;
- width: 900px;
+ max-width: 600px;
  font-family: sans-serif;
+ float: right;
 }
