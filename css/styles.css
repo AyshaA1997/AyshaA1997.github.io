@@ -420,8 +420,12 @@ img{
   margin: 30px;
 }
 
-#about{
- max-width: 600px;
- font-family: sans-serif;
- float: right;
+.about{
+min-width: 900px;
 }
+
+@media (min-width: 600px){
+.about{
+   min-width: 300px;
+  
+  }
