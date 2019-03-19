@@ -429,3 +429,12 @@ min-width: 900px;
    min-width: 300px;
   
   }
+
+
+  /* homepage */
+
+  .flowerchild{
+    width: 500px;
+    height: auto;
+    float: right;
+  }
