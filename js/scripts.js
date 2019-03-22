@@ -3,7 +3,8 @@ console.log('OK');
 
 
 // Light Gallery
-lightGallery(document.getElementById('lightgallery'))
+ $('#lightgallery').lightGallery();
+
 
 
 

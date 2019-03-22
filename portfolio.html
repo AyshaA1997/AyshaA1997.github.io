@@ -23,7 +23,6 @@
 <!-- Required Plugin Stylesheets -->    
     <link rel="stylesheet" href="/css/lightgallery.min.css">
     <link rel="stylesheet" href="/css/lg-transitions.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
 <!-- My Awesome Styling -->
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -64,76 +63,39 @@
         </div>
       </div>   
 
-    <h1 class="page-head">My Portfolio</h1>
+    <h1 class="">My Portfolio</h1>
 
 
-    <!-- <div id="lightgallery">
-        <a href="img/Catalog_cover.png" id="pic">
-            <img src="img/Catalog_cover.png" alt="">
-        </a>
+      <div id="lightgallery" id='captions'>
+            <a href="img/Catalog_cover.png">
+                <img src="img/Catalog_cover.png" alt="">
+            </a>
 
-        <a href="img/cheney.jpg">
-            <img src="img/cheney.jpg" alt="">
-        </a>
-        
-        <a href="img/mazarati.jpg">
-            <img src="img/mazarati.jpg" alt="">
-        </a>
+            <a href="img/cheney.jpg">
+                <img src="img/cheney.jpg" alt="">
+            </a>
+            
+            <a href="img/mazarati.jpg">
+                <img src="img/mazarati.jpg" alt="">
+            </a>
 
-        <a href="img/youngselfportrait.jpg">
-            <img src="img/youngselfportrait.jpg" alt="">
-        </a>
+            <a href="img/youngselfportrait.jpg">
+                <img src="img/youngselfportrait.jpg" alt="">
+            </a>
 
-        <a href="img/gracie.jpg" id="pic">
-            <img src="img/gracie.jpg" alt="">
-        </a>
+            <a href="img/gracie.jpg" id="pic">
+                <img src="img/gracie.jpg" alt="">
+            </a>
 
-        </div> -->
+            </div> 
 
 
-        <div class="cont">
-          
-            <div class="demo-gallery">
-              <ul id="lightgallery">
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                  <a href="">
-                    <img class="img-responsive" src="img/cheney.jpg">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/2-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/2.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                  <a href="">
-                    <img class="img-responsive" src="img/gracie.jpg">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/13-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/13.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                data-sub-html="<h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>">
-                  <a href="">
-                    <img class="img-responsive" src="img/Catalog_cover.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/4.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>">
-                  <a href="">
-                    <img class="img-responsive" src="img/BrittanyLogo_5x5_white_nowords copy.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                  </a>
-                </li>
-              </ul>
-             
-          </div>
+            <!-- Calling the Plugin -->
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#lightgallery").lightGallery(); 
+                });
+            </script>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -141,15 +103,6 @@
     <script src="/js/lightgallery-all.min.js"></script>  
     <script src="js/lg-thumbnail.min.js"></script>
     <script src="js/lg-fullscreen.min.js"></script>
-
-    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
-    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
 </body>
