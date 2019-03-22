@@ -3,6 +3,8 @@ console.log('OK');
 
 
 // Light Gallery
- $('#gallery-1').lightGallery();
+lightGallery(document.getElementById('lightgallery'))
+
+
 
 // Your Awesome Scripts
