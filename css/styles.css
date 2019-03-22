@@ -399,16 +399,6 @@ h1{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 img{
   width: 200px;
   height: 200px;
@@ -422,16 +412,41 @@ img{
   width: 300px;
   height: auto;
   margin: 30px;
+  display: block;
 }
 
 .about{
+  top: 50px;
+  margin: 20px;
+  display: block;
 min-width: 900px;
 }
 
-@media (min-width: 600px){
 .about{
-   min-width: 300px;
-  
+  margin: 20px 0 0;
+}
+
+@media (max-width: 900px) {
+  .me{
+    float: none;
+    margin: 30px auto;
+    width: 300px;
+  }
+
+  .about{
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  }
+
+  @media (max-width: 780px) {
+  .me{
+    margin-top: 25px;
+
+  }
+  .about{
+    width: 1em;
+  }
   }
 
 
