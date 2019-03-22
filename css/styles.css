@@ -432,6 +432,10 @@ min-width: 900px;
 
 
   /* homepage */
+  .home_logo{
+    text-align: center;
+    margin: 30px 30px;
+}
 
   .homepage {
     background:#418080;
@@ -443,7 +447,7 @@ min-width: 900px;
   }
   
   .link {
-    font-family: cursive;
+    font-family: Autumn in November ,cursive;
     font-size: 32px;
     color: #c9ac68;
     text-decoration: none;
@@ -451,5 +455,7 @@ min-width: 900px;
   }
   
   .link:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.7s ease-in-out;
     border-color: #c9ac68;}
+
+    
