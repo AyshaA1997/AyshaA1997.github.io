@@ -146,6 +146,15 @@ body {
   margin-bottom: 25px;
 }
 
+.subsection{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font: 300 20px 'Oswald', sans-serif;
+  color: #c9ac68;
+  margin-bottom: 25px;
+}
+
 .contact-wrapper {
   margin: 0 auto;
   padding-top: 20px;
@@ -318,6 +327,10 @@ hr {
   .section-header {
     font-size: 65px;
   }
+
+  .subsection{
+    font-size: 17px;
+  }
   
   .direct-contact-container, .form-horizontal {
     float: none;
@@ -487,3 +500,16 @@ p{
     border-color: #c9ac68;}
 
     
+
+    /* portfolio */
+
+    #lightgallery{
+      margin-left: 200px;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: 900px) {
+      #lightgallery{
+        margin-left: 90px; 
+      }
+    }
