@@ -417,13 +417,15 @@ img{
   height: auto;
   float: right;
   padding: 10px;
-  margin-right: 200px;
+  padding-left: 10px;
+  margin-right: 150px;
 }
 
 p{
   margin: 30px auto;
   margin-right: 40px;
   padding: 50px;
+  padding-right:10px ;
 }
 
 
@@ -433,6 +435,11 @@ p{
 }
 
 @media screen and (max-width: 900px) {
+.about_header{
+  display: flex;
+  justify-content: center;
+}
+
   .me{
     float: none;
     margin: 30px auto;
@@ -443,15 +450,11 @@ p{
   
   p{
     display: flex;
-    justify-content: center;
-    max-width: 400px;
-    padding: 20px;
+    align-content: center;
+    max-width: 500px;
+   margin: 15px auto;
   }
 }
-
-@media screen and (max-width: 1000px) {
-
-
 
 
 
