@@ -407,41 +407,49 @@ img{
 
 
 /* about */
-*{
+.about_header{
   margin: 10px auto;
+  padding-left: 50px;
 }
 
-
-img{
-  width: 50%;
+.me {
+  width: 400px;
+  height: auto;
   float: right;
-  padding: 40px;
+  padding: 10px;
+  margin-right: 200px;
 }
 
 p{
-  margin: 10px auto;
+  margin: 30px auto;
+  margin-right: 40px;
   padding: 50px;
 }
+
 
 
 .clearfix {
   overflow: auto;
 }
 
-@media screen and (max-width: 760px) {
-  img{
+@media screen and (max-width: 900px) {
+  .me{
     float: none;
     margin: 30px auto;
     display: flex;
     align-content: center;
+    padding: 10px;
   }
   
   p{
+    display: flex;
+    justify-content: center;
     max-width: 400px;
+    padding: 20px;
   }
 }
 
-
+@media screen and (max-width: 1000px) {
 
 
 
