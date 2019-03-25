@@ -3,6 +3,7 @@
 */
 body {
   background: #fff;
+
 }
 
 
@@ -24,7 +25,7 @@ body {
 
 body {
   margin: 0px;
-  font-family: 'Lato';
+  
 }
 
 .nav {
@@ -35,6 +36,8 @@ body {
   background-color: #fff;
   position: relative;
   z-index:1000;
+  font-family: 'Walkway Condensed Bold', 'Oswald', sans-serif;
+  letter-spacing: 4px;
 }
 
 .nav > .nav-header {
@@ -140,7 +143,7 @@ body {
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
-  font: 300 60px 'Oswald', sans-serif;
+  font: 300 60px 'Walkway Condensed Bold', 'Oswald', sans-serif;
   letter-spacing: 6px;
   color: #c9ac68;
   margin-bottom: 25px;
@@ -150,7 +153,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  font: 300 20px 'Oswald', sans-serif;
+  font: 300 20px 'Walkway Condensed Bold', 'Oswald', sans-serif;
+  letter-spacing: 2px;
   color: #c9ac68;
   margin-bottom: 25px;
 }
@@ -166,7 +170,7 @@ body {
 .form-horizontal {
   float: left;
   max-width: 400px;
-  font-family: 'Lato';
+  font-family: 'Walkway Condensed Bold', 'Oswald', sans-serif;
   font-weight: 400;
 }
 
@@ -195,7 +199,7 @@ body {
 .send-text {
   display: block;
   margin-top: 10px;
-  font: 300 14px 'Lato', sans-serif;
+  font: 300 14px 'Walkway Condensed Bold','Oswald',  sans-serif;
   letter-spacing: 2px;
 }
 
@@ -223,7 +227,8 @@ body {
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 18px 'Walkway Condensed Bold', 'Oswald', sans-serif;
+  font-size: 25px;
   letter-spacing: 1.9px;
   color: #bbb;
 }
@@ -308,12 +313,6 @@ body {
   color: #111;
 }
 
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
-}
 
 hr {
   border-color: rgba(255,255,255,.8); ;
@@ -329,7 +328,8 @@ hr {
   }
 
   .subsection{
-    font-size: 17px;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
   
   .direct-contact-container, .form-horizontal {
@@ -401,10 +401,11 @@ hr {
 /* Portfolio Gallery */
 h1{
   display: flex;
+  justify-content: center;
   margin: 40px;
   color: #c9ac68;
   font-size: 4em;
-  font-family: sans-serif;
+  font-family: 'Walkway Expand Bold', 'Oswald', sans-serif;
 }
 
 #lightgallery{
@@ -422,8 +423,13 @@ img{
 
 /* about */
 .about_header{
-  margin: 10px auto;
+  margin: 40px auto;
+  letter-spacing: 2px;
   padding-left: 50px;
+  font-family: 'Walkway Expand Bold', 'Oswald', sans-serif;
+  font-size: 4em;
+  color: #c9ac68
+
 }
 
 .me {
@@ -440,6 +446,8 @@ p{
   margin-right: 40px;
   padding: 50px;
   padding-right:10px ;
+  font-family: 'Gill Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
 
@@ -488,7 +496,8 @@ p{
   }
   
   .link {
-    font-family: Autumn in November ,cursive;
+    font-family:  Walkway Condensed Bold;
+    letter-spacing: 8px;
     font-size: 32px;
     color: #c9ac68;
     text-decoration: none;
